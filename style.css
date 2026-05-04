@@ -1,0 +1,114 @@
+/* External CSS for both pages: pink, purple, blue, cream colors */
+
+/* Body */
+body {
+    background-color: #f0f8ff; /* light blue */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Wrapper */
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+/* Header */
+header {
+    background-color: #f7b7c5; ( pink )
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* Header h1 */
+header h1 {
+    text-align: center;
+    font-family: "Segoe Script", cursive;
+}
+
+/* Navigation */
+nav {
+    background-color: #baa5e4; ( light salmon)
+    text-align: center;
+    padding: 10px; 
+}
+
+/* Navigation links */
+nav a {
+    color: #ffffff; (white)
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+/* Section */
+section {
+    background-color: #ffffff; /* white for contrast */
+    width: 100%;
+    min-height: 500px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+/* Footer */
+footer {
+    background-color: #baa5e4; /* purple */
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    clear: both;
+}
+
+/* Footer links */
+footer a {
+    text-decoration: none;
+}
+
+/* Forms */
+form {
+    background-color: #e6f7ff; /* very light blue */
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+input, select, textarea {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px;
+}
+
+/* 2 column layout */
+.column {
+    width: 48%;
+    float: left;
+    margin: 1%;
+}
+
+.column img {
+    width: 100%;
+}
+
+/* 3 column layout */
+.column3 {
+    width: 30%;
+    float: left;
+    margin: 1.66%;
+}
+
+.column3 img {
+    width: 100%;
+}
+
+.column3 p {
+    text-align: center;
+}
+
+/* Clear Fix */
+.clear {
+    clear: both;
+}
